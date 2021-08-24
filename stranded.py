@@ -234,7 +234,7 @@ def game_over():
     print("You lost! Game will close in 5 seconds.")
     time.sleep(5)
     quit()
-print("Please have python window maximized.")
+print("Please have python window maximized. (Or for mac put on fullscreen :)")
 time.sleep(1)
 name = input("What is your name? ")
 print("Hello,",name)
