@@ -330,7 +330,7 @@ else:
     print("Why wouldn't you say yes???")
     time.sleep(2)
     game_over()
-dir3=input("")
+dir3=input("Do you go right or left? Type 'l' for left and 'r' for right. ")
 if dir3=="d":
     print("You went south, and found a shack.")
     time.sleep(1)
