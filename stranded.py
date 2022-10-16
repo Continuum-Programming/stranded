@@ -3,7 +3,7 @@ import time
 from os import system
 system("title " + "Stranded")
 def intro():
-    turtle.speed(10000000000000000000000000000000000000000000000000000000000000000000000000)
+    turtle.tracer(0, 0)
     turtle.reset()
     turtle.right(15)
     turtle.forward(50)
@@ -603,6 +603,7 @@ def intro():
     turtle.forward(400)
     turtle.right(160)
     turtle.forward(425)
+    turtle.update()
     time.sleep(10)
     turtle.reset()
     turtle.penup()
@@ -647,6 +648,7 @@ def intro():
     turtle.dot(10)
     turtle.penup()
     turtle.goto(x=1000,y=1000)
+    turtle.update()
 def map():
     turtle.reset()
     turtle.penup()
@@ -689,6 +691,7 @@ def map():
     turtle.dot(size=10)
     turtle.penup()
     turtle.goto(x=0,y=0)
+    turtle.update()
 def map_2():
     turtle.reset()
     turtle.penup()
@@ -734,6 +737,7 @@ def map_2():
     turtle.right(135)
     turtle.forward(50)
     time.sleep(5)
+    turtle.update()
 def map_3():
     turtle.reset()
     turtle.penup()
@@ -780,6 +784,7 @@ def map_3():
     turtle.forward(100)
     turtle.right(90)
     time.sleep(5)
+    turtle.update()
 def map_4():
     turtle.reset()
     turtle.penup()
@@ -827,6 +832,7 @@ def map_4():
     turtle.left(90)
     turtle.forward(50)
     time.sleep(5)
+    turtle.update()
 
 def map_5():
     turtle.reset()
@@ -875,6 +881,7 @@ def map_5():
     turtle.left(90)
     turtle.forward(100)
     time.sleep(5)
+    turtle.update()
 def game_over():
     print("You lost! Game will close in 5 seconds.")
     time.sleep(5)
