@@ -1,7 +1,7 @@
 import turtle
 import time
-from os import system
-system("title " + "Stranded")
+import ctypes
+ctypes.windll.kernel32.SetConsoleTitleW("Stranded")
 def intro():
     turtle.tracer(0, 0)
     turtle.reset()
