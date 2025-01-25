@@ -958,7 +958,7 @@ else:
 print("The dot is",friend_name," and the arrow is you")
 dir1=input("Do you go right or left? Type 'l' for left and 'r' for right. ")
 if dir1 == "l":
-    print("You went left and encountered a group of man eating baboons. Good job. You died.")
+    print("You went left and encountered a group of man eating bananas. Good job. You died.")
     time.sleep(2)
     game_over()
 map2=input("Do you want to open the map? Type 'yes' to open map. ")
@@ -1097,4 +1097,6 @@ print("Error IDs:"\
       "12: User had bad wifi."\
       "13: There was too much traffic on stranded."\
       "14: Guido van Rossum did not like the user."\
-      "15: Eanderso2 does not like the user.")
+      "15: Eanderso2 does not like the user."
+      "16: User did not like the user."
+      "17: User did not exist." )
